@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Add Note"
+        android:id="@+id/add_note"
+        android:icon="@drawable/add_box"
+        />
+
+    <item
+        android:title="Show All"
+        android:id="@+id/show_all"
+        android:icon="@drawable/ic_baseline_format_list_bulleted_24"
+        />
+
+    <item
+        android:title="Share App"
+        android:id="@+id/share_app"
+        android:icon="@drawable/share"
+        />
+
+    <item
+        android:title="exit"
+        android:id="@+id/exit"
+        android:icon="@drawable/exit"
+        />
+</menu>

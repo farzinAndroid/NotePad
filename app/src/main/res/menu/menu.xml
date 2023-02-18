@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/about"
+        android:title="@string/about"
+        />
+
+    <item
+        android:id="@+id/contact"
+        android:title="@string/contactus"
+        />
+
+    <item
+        android:title="@string/exit"
+        android:id="@+id/exit"
+        />
+
+    <item
+        android:orderInCategory="1"
+        android:title="@string/search"
+        android:id="@+id/search"
+        android:icon="@drawable/search_png"
+        app:showAsAction="always"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+
+    <item
+        android:orderInCategory="2"
+        android:title="@string/web_site"
+        android:icon="@drawable/web"
+        android:id="@+id/web"
+        />
+</menu>

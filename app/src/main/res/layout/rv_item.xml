@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="20dp"
+    app:cardCornerRadius="@dimen/dp_10"
+    android:layout_marginBottom="@dimen/dp_10"
+    app:cardMaxElevation="@dimen/dp_10"
+    android:layout_marginTop="@dimen/dp_10"
+    android:layout_marginStart="5dp"
+    android:layout_marginEnd="5dp"
+    >
+
+   <RelativeLayout
+       android:id="@+id/parent"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:padding="10dp"
+       android:background="#6A6A6A"
+       >
+
+       <androidx.appcompat.widget.AppCompatTextView
+           android:id="@+id/title"
+           android:layout_width="200dp"
+           android:layout_height="wrap_content"
+           android:text="@string/enter_title"
+           android:textSize="20sp"
+           android:textColor="@color/white"
+           android:maxLines="1"
+           android:ellipsize="end"
+           />
+
+       <androidx.appcompat.widget.AppCompatTextView
+           android:id="@+id/desc"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/title"
+           android:layout_marginTop="@dimen/dp_10"
+           android:maxLength="30"
+           android:maxLines="2"
+           android:ellipsize="end"
+           android:text="@string/enter_title"
+           android:textColor="@color/white"
+           android:textSize="@dimen/font_15sp" />
+
+       <androidx.appcompat.widget.AppCompatTextView
+           android:id="@+id/details"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/desc"
+           android:layout_marginTop="@dimen/dp_10"
+           android:text="@string/enter_title"
+           android:textColor="@color/white"
+           android:textSize="10sp" />
+
+       <androidx.appcompat.widget.AppCompatImageView
+           android:id="@+id/more_menu"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           app:srcCompat="@drawable/more"
+           android:layout_alignParentEnd="true"
+           android:layout_centerVertical="true"
+           />
+
+   </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">NotePad</string>
+    <string name="sign_in">Sign In</string>
+    <string name="user">UserName</string>
+    <string name="password">Password</string>
+    <string name="Forgot_Password">Forgot Password?</string>
+    <string name="Or_Sign_Up_With">Or Sign Up With</string>
+    <string name="about">About Us</string>
+    <string name="contactus">Contact Us</string>
+    <string name="exit">Exit</string>
+    <string name="search">Search</string>
+    <string name="web_site">Website</string>
+    <string name="my_name">Farzin Allahyari</string>
+    <string name="close">Close</string>
+    <string name="open">Open</string>
+    <string name="exit_app">Exit</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="add_note">Add Note</string>
+    <string name="enter_description">Enter your Note</string>
+    <string name="enter_title">Title</string>
+    <string name="snack_note">Your Note was Added Successfully</string>
+    <string name="snack_note2">All Fields are Required</string>
+    <string name="snack_update">Note Updated</string>
+    <string name="query_hint">Search Item</string>
+    <string name="share_app_message">Please Share Our App</string>
+    <string name="share_link">\"Share App Via Link : \"</string>
+    <string name="delete">Delete</string>
+    <string name="deleted">Deleted</string>
+    <string name="details">Details</string>
+    <string name="ok">Ok</string>
+    <string name="select_date">Select Date</string>
+    <string name="select_time">Select Time</string>
+</resources>
